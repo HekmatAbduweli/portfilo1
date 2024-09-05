@@ -1,0 +1,16 @@
+{
+  "prosjekter": [
+    {
+      "id": 1,
+      "navn": "Prosjekt Alpha",
+      "beskrivelse": "Dette er et eksempelprosjekt.",
+      "status": "Pågående"
+    },
+    {
+      "id": 2,
+      "navn": "Prosjekt Beta",
+      "beskrivelse": "En annen eksempelprosjekt.",
+      "status": "Fullført"
+    }
+  ]
+}

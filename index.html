@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prosjekt Applikasjon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Prosjektliste</h1>
+        <table id="prosjekt-list">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Navn</th>
+                    <th>Beskrivelse</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <h2>Opprett nytt prosjekt</h2>
+        <form id="opprett-prosjekt-form">
+            <label for="navn">Navn:</label>
+            <input type="text" id="navn" name="navn" required>
+            <label for="beskrivelse">Beskrivelse:</label>
+            <input type="text" id="beskrivelse" name="beskrivelse" required>
+            <label for="status">Status:</label>
+            <select id="status" name="status">
+                <option value="Pågående">Pågående</option>
+                <option value="Fullført">Fullført</option>
+            </select>
+            <button type="submit">Lagre</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
